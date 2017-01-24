@@ -383,8 +383,8 @@ class MFRC522:
   def MFRC522_Init(self):
     GPIO.output(self.NRSTPD, 1)
   
+    self.Write_MFRC522(self.RFCfgReg, (0x07<<4))
     self.MFRC522_Reset();
-    
     
     self.Write_MFRC522(self.TModeReg, 0x8D)
     self.Write_MFRC522(self.TPrescalerReg, 0x3E)
