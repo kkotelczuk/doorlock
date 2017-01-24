@@ -1,0 +1,22 @@
+{
+  "name": "doorlock-node",
+  "version": "1.0.0",
+  "description": "RFID doorlock appliaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "MFRC522-node": "^1.0.5",
+    "axios": "^0.15.3",
+    "onoff": "^1.1.1",
+    "pi-gpio": "0.0.8",
+    "requests": "^0.1.7",
+    "rpi-gpio": "^0.7.0",
+    "rpio": "^0.9.14",
+    "sleep": "^5.1.0",
+    "syncano": "^1.0.28"
+  }
+}
